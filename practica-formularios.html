@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/estilos-formularios.css">
+</head>
+<body>
+  <form class="form-elegante" id="miFormulario">
+    <div class="form-group">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej. Ana Pérez" required>
+    </div>
+
+    <div class="form-group">
+        <label for="pais">País de residencia</label>
+        <select id="pais" name="pais">
+            <option value="" disabled selected>Selecciona un país</option>
+            <option value="es">España</option>
+            <option value="mx">México</option>
+            <option value="ar">Argentina</option>
+            <option value="co">Colombia</option>
+        </select>
+    </div>
+
+    <div class="form-actions">
+        <button type="button" class="btn-secundario">Cancelar</button>
+        <button type="submit" class="btn-primario">Enviar</button>
+    </div>
+</form>
+</body>
+</html>
