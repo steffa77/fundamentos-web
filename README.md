@@ -15,3 +15,5 @@
 3. Ingresa a VSCode y agrega la carpeta del proyecto
 
 Visita mi Web: [Google](https://www.google.com.pe)
+
+Proyecto de fundamentos web - práctica de Git.
